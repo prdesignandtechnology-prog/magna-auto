@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Magna Auto and Tire Center LLC | Auto Repair & Emissions in Magna, UT</title>
+    <meta name="description" content="Magna Auto and Tire Center LLC is a family-owned auto repair shop in Magna, UT (84044). Specializing in oil changes, emissions testing, brakes, and tires. Rated 4.2 Stars. Call (801) 432-8201.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Custom Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Open Sans', 'sans-serif'],
+                        heading: ['Roboto', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#1e3a8a', // Deep Mechanic Blue
+                            red: '#dc2626',  // Action Red
+                            dark: '#111827',
+                            light: '#f3f4f6'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Schema.org JSON-LD (AutoRepair Specific) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "Magna Auto and Tire Center LLC",
+      "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "telephone": "+18014328201",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "8120 W 3500 S",
+        "addressLocality": "Magna",
+        "addressRegion": "UT",
+        "postalCode": "84044",
+        "addressCountry": "US"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "reviewCount": "288"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="font-sans text-gray-700 antialiased bg-white relative">
+
+    <!-- Accessibility: Skip to Content Link -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 z-50 bg-brand-blue text-white px-4 py-2 rounded-md font-bold shadow-lg ring-2 ring-white">
+        Skip to main content
+    </a>
+
+    <!-- Top Bar (NAP Focus) -->
+    <div class="bg-brand-dark text-gray-300 text-sm py-2 px-4 hidden sm:block">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <span><i class="fas fa-map-marker-alt mr-2" aria-hidden="true"></i> 8120 W 3500 S, Magna, UT 84044</span>
+            <span><i class="fas fa-clock mr-2" aria-hidden="true"></i> Open until 6:00 PM</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo Area -->
+                <div class="flex-shrink-0 flex flex-col justify-center">
+                    <span class="font-heading font-black text-2xl text-brand-blue uppercase tracking-tighter leading-none">Magna Auto</span>
+                    <span class="text-xs font-bold text-gray-500 tracking-widest uppercase">& Tire Center LLC</span>
+                </div>
+                
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex space-x-8 items-center" aria-label="Main Navigation">
+                    <a href="#services" class="text-gray-600 hover:text-brand-blue font-semibold transition focus:outline-none focus:ring-2 focus:ring-brand-blue focus:ring-offset-2 rounded-md px-2 py-1">Services</a>
+                    <a href="#reviews" class="text-gray-600 hover:text-brand-blue font-semibold transition focus:outline-none focus:ring-2 focus:ring-brand-blue focus:ring-offset-2 rounded-md px-2 py-1">Reviews</a>
+                    <a href="#location" class="text-gray-600 hover:text-brand-blue font-semibold transition focus:outline-none focus:ring-2 focus:ring-brand-blue focus:ring-offset-2 rounded-md px-2 py-1">Location</a>
+                    <a href="tel:8014328201" class="bg-brand-red text-white px-5 py-2.5 rounded-md font-bold text-sm hover:bg-red-700 transition shadow-lg transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-brand-red focus:ring-offset-2">
+                        <i class="fas fa-phone-alt mr-2" aria-hidden="true"></i> (801) 432-8201
+                    </a>
+                </nav>
+
+                <!-- Mobile Call Icon -->
+                <div class="md:hidden">
+                    <a href="tel:8014328201" aria-label="Call Magna Auto and Tire Center" class="bg-brand-red text-white w-10 h-10 rounded-full flex items-center justify-center shadow-md focus:outline-none focus:ring-2 focus:ring-brand-red focus:ring-offset-2">
+                        <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Wrapper for Accessibility -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="relative bg-brand-dark text-white py-24 px-4 overflow-hidden" aria-labelledby="hero-heading">
+            <!-- Abstract Background Overlay -->
+            <div class="absolute inset-0 z-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1625047509168-a7026f36de04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center" aria-hidden="true"></div>
+            <div class="absolute inset-0 z-10 bg-gradient-to-r from-brand-blue to-transparent opacity-90" aria-hidden="true"></div>
+
+            <div class="relative z-20 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-block bg-brand-red text-white text-xs font-bold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">
+                        Family-Owned & Operated
+                    </div>
+                    <h1 id="hero-heading" class="font-heading text-4xl sm:text-5xl md:text-6xl font-black mb-6 leading-tight">
+                        Reliable Auto Repair in Magna, UT
+                    </h1>
+                    <p class="text-lg text-gray-200 mb-8 leading-relaxed">
+                        Specializing in oil changes, emissions testing, brakes, and tire services. We get you back on the road safely without the hassle.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="tel:8014328201" class="bg-white text-brand-blue px-8 py-4 rounded-lg font-bold text-lg shadow-lg hover:bg-gray-100 transition text-center focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-brand-blue">
+                            Call Now
+                        </a>
+                        <a href="#location" class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-brand-blue transition text-center focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-brand-blue">
+                            Get Directions
+                        </a>
+                    </div>
+                    <div class="mt-8 flex items-center gap-4 text-sm font-medium text-gray-300">
+                        <div class="flex text-yellow-400 text-lg" aria-label="4.2 out of 5 stars">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                        </div>
+                        <span>4.2 Stars (288 Reviews)</span>
+                    </div>
+                </div>
+                <!-- Hero Image/Graphic -->
+                <div class="hidden md:block relative">
+                   <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Professional mechanic examining the undercarriage of a vehicle on a lift" class="rounded-xl shadow-2xl border-4 border-white/10 transform rotate-2 hover:rotate-0 transition duration-500">
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Services -->
+        <section id="services" class="py-20 px-4 sm:px-6 bg-gray-50" aria-labelledby="services-heading">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 id="services-heading" class="font-heading text-3xl sm:text-4xl font-black text-brand-dark">Our Specialties</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">From routine maintenance to essential repairs, our family-owned shop handles it all with honesty and expertise.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Emissions -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-b-4 border-brand-red hover:shadow-lg transition group">
+                        <div class="w-14 h-14 bg-red-50 rounded-lg flex items-center justify-center text-brand-red mb-4 group-hover:bg-brand-red group-hover:text-white transition" aria-hidden="true">
+                            <i class="fas fa-smog text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold text-xl text-brand-dark mb-2">Emissions Testing</h3>
+                        <p class="text-gray-500 text-sm">Quick and certified emissions testing to keep your registration current and your car legal.</p>
+                    </div>
+
+                    <!-- Oil Change -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-b-4 border-brand-blue hover:shadow-lg transition group">
+                        <div class="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center text-brand-blue mb-4 group-hover:bg-brand-blue group-hover:text-white transition" aria-hidden="true">
+                            <i class="fas fa-oil-can text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold text-xl text-brand-dark mb-2">Oil Changes</h3>
+                        <p class="text-gray-500 text-sm">Regular maintenance and oil changes to extend the life of your engine and improve performance.</p>
+                    </div>
+
+                    <!-- Brakes -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-b-4 border-brand-blue hover:shadow-lg transition group">
+                        <div class="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center text-brand-blue mb-4 group-hover:bg-brand-blue group-hover:text-white transition" aria-hidden="true">
+                            <i class="fas fa-car-crash text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold text-xl text-brand-dark mb-2">Brake Service</h3>
+                        <p class="text-gray-500 text-sm">Squeaky brakes? We provide pad replacement, rotor resurfacing, and full brake system inspections.</p>
+                    </div>
+
+                    <!-- Tires -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-b-4 border-brand-blue hover:shadow-lg transition group">
+                        <div class="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center text-brand-blue mb-4 group-hover:bg-brand-blue group-hover:text-white transition" aria-hidden="true">
+                            <i class="fas fa-bullseye text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold text-xl text-brand-dark mb-2">Tires & Alignment</h3>
+                        <p class="text-gray-500 text-sm">New tire sales, installation, rotation, and balancing to ensure a smooth, safe ride.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us / Trust Banner -->
+        <section class="bg-brand-blue py-12 px-4" aria-label="Trust and Credibility">
+            <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
+                <div>
+                    <h2 class="text-2xl font-bold text-white mb-2">Local, Family-Owned, and Trusted.</h2>
+                    <p class="text-blue-200">Serving the Magna community with honest pricing and quality work.</p>
+                </div>
+                <div class="flex gap-4 flex-wrap justify-center">
+                    <div class="bg-blue-800 px-6 py-3 rounded-lg text-white font-semibold flex items-center gap-2">
+                        <i class="fas fa-check-circle text-green-400" aria-hidden="true"></i> 4.2 Star Rating
+                    </div>
+                    <div class="bg-blue-800 px-6 py-3 rounded-lg text-white font-semibold flex items-center gap-2">
+                        <i class="fas fa-check-circle text-green-400" aria-hidden="true"></i> Local Experts
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location & Contact -->
+        <section id="location" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto" aria-labelledby="contact-heading">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200">
+                <!-- Info Side -->
+                <div class="lg:col-span-2 p-8 bg-gray-50 flex flex-col justify-center">
+                    <h2 id="contact-heading" class="font-heading text-3xl font-black text-brand-dark mb-6">Visit The Shop</h2>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-white p-3 rounded-full shadow-sm text-brand-red mr-4" aria-hidden="true">
+                                <i class="fas fa-map-marked-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-gray-900">Address</p>
+                                <p class="text-gray-600">8120 W 3500 S<br>Magna, UT 84044</p>
+                                <a href="https://www.google.com/maps/dir//8120+W+3500+S,+Magna,+UT+84044" target="_blank" class="text-brand-blue font-semibold text-sm hover:underline mt-1 inline-block focus:outline-none focus:ring-2 focus:ring-brand-blue focus:ring-offset-2 rounded-sm">Get Directions &rarr;</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-white p-3 rounded-full shadow-sm text-brand-red mr-4" aria-hidden="true">
+                                <i class="fas fa-phone-volume text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-gray-900">Phone</p>
+                                <a href="tel:8014328201" class="text-xl font-black text-brand-dark hover:text-brand-blue transition focus:outline-none focus:ring-2 focus:ring-brand-blue focus:ring-offset-2 rounded-sm">(801) 432-8201</a>
+                                <p class="text-xs text-gray-500 mt-1">Call for appointments</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-white p-3 rounded-full shadow-sm text-brand-red mr-4" aria-hidden="true">
+                                <i class="fas fa-clock text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-gray-900">Hours</p>
+                                <p class="text-gray-600">Mon - Sat: Open until 6:00 PM</p>
+                                <p class="text-xs text-red-500 mt-1">*Hours may vary on holidays</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Side -->
+                <div class="lg:col-span-3 h-80 lg:h-auto min-h-[300px] relative">
+                    <iframe 
+                        title="Map location of Magna Auto and Tire Center on 3500 South"
+                        class="absolute inset-0 w-full h-full"
+                        frameborder="0" 
+                        scrolling="no" 
+                        marginheight="0" 
+                        marginwidth="0" 
+                        src="https://maps.google.com/maps?q=8120+W+3500+S,+Magna,+UT+84044&t=&z=15&ie=UTF8&iwloc=&output=embed">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-gray-400 py-12 px-4 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-center md:text-left">
+                <p class="text-white font-heading font-bold text-xl mb-1">Magna Auto and Tire Center LLC</p>
+                <p class="text-sm">Trusted Automotive Repair in Magna, Utah.</p>
+            </div>
+            
+            <!-- Strict NAP Footer for SEO -->
+            <div class="text-center md:text-right text-sm">
+                <p>8120 W 3500 S, Magna, UT 84044</p>
+                <p class="mt-1"><a href="tel:8014328201" class="text-brand-red font-bold hover:text-white transition focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-brand-dark rounded-sm">(801) 432-8201</a></p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-8 pt-8 border-t border-gray-800 text-center text-xs">
+            <p>&copy; 2024 Magna Auto and Tire Center LLC. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
